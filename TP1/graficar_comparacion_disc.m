@@ -25,7 +25,7 @@ grid()
 xlabel('Tiempo [s]');
 ylabel('Nivel del tanque [m]');
 legend('Modelo no lineal', 'Modelo linealizado','Modelo discretizado ZOH', 'Modelo discretizado Tustin');
-saveas(gcf,'comp_incr_5_disc.png')
+%saveas(gcf,'comp_incr_5_disc.png')
 hold off
 
 
@@ -52,6 +52,6 @@ grid()
 xlabel('Tiempo [s]');
 ylabel('Nivel del tanque [m]');
 legend('Modelo no lineal', 'Modelo linealizado', 'Modelo discretizado ZOH','Modelo discretizado Tustin');
-saveas(gcf,'comp_incr_5_disc_zoom.png')
+%saveas(gcf,'comp_incr_5_disc_zoom.png')
 
 
